@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         var myString: String = ""
         for (j in 0..myList.size-1) {
-            myString = myString + myList.get(j) + " | "
+            myString = myString + myList.get(j) + " "
         }
 
         val myText: TextView
